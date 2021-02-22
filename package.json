@@ -1,0 +1,39 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "server": "nodemon api/server",
+    "debug": "ndb api/server.js",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "startNuxt": "nuxt start",
+    "generate": "nuxt generate",
+    "start": "node api/server"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.4",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cookie-session": "^1.4.0",
+    "core-js": "^3.6.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.11.9",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.6",
+    "nuxt": "^2.14.6",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.1.0"
+  }
+}

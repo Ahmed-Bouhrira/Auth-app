@@ -1,0 +1,30 @@
+[
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "C:\\\\Users\\\\DELL POSTE N° 05\\\\Desktop\\\\Auth-app\\\\pages\\\\login.vue",
+    "chunkName": "pages/login",
+    "_name": "_618606f1"
+  },
+  {
+    "name": "profile",
+    "path": "/profile",
+    "component": "C:\\\\Users\\\\DELL POSTE N° 05\\\\Desktop\\\\Auth-app\\\\pages\\\\profile.vue",
+    "chunkName": "pages/profile",
+    "_name": "_134ce531"
+  },
+  {
+    "name": "register",
+    "path": "/register",
+    "component": "C:\\\\Users\\\\DELL POSTE N° 05\\\\Desktop\\\\Auth-app\\\\pages\\\\register.vue",
+    "chunkName": "pages/register",
+    "_name": "_ab9a3f6a"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\DELL POSTE N° 05\\\\Desktop\\\\Auth-app\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_d043384c"
+  }
+]
