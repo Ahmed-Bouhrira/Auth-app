@@ -32,7 +32,9 @@
 
           <v-card-actions>
             <v-btn color="primary" text to="/profile"> Profil </v-btn>
-            <v-spacer></v-spacer>
+            <v-btn text to="app" color="primary">
+              Chat Here
+            </v-btn>
 
             <v-btn color="primary" text @click="logout"> Logout </v-btn>
           </v-card-actions>

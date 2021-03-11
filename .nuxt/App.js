@@ -6,9 +6,11 @@ import NuxtLoading from './components/nuxt-loading.vue'
 
 import '..\\node_modules\\vuetify\\dist\\vuetify.css'
 
+import _2d22344e from '..\\layouts\\chat.vue'
 import _6f6c098b from '..\\layouts\\default.vue'
+import _77a66d33 from '..\\layouts\\login.vue'
 
-const layouts = { "_default": sanitizeComponent(_6f6c098b) }
+const layouts = { "_chat": sanitizeComponent(_2d22344e),"_default": sanitizeComponent(_6f6c098b),"_login": sanitizeComponent(_77a66d33) }
 
 export default {
   render (h, props) {

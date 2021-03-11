@@ -1,5 +1,19 @@
 [
   {
+    "name": "app",
+    "path": "/app",
+    "component": "C:\\\\Users\\\\DELL POSTE N° 05\\\\Desktop\\\\Auth-app\\\\pages\\\\app.vue",
+    "chunkName": "pages/app",
+    "_name": "_bc21dcae"
+  },
+  {
+    "name": "chat",
+    "path": "/chat",
+    "component": "C:\\\\Users\\\\DELL POSTE N° 05\\\\Desktop\\\\Auth-app\\\\pages\\\\chat.vue",
+    "chunkName": "pages/chat",
+    "_name": "_a2b6ab00"
+  },
+  {
     "name": "login",
     "path": "/login",
     "component": "C:\\\\Users\\\\DELL POSTE N° 05\\\\Desktop\\\\Auth-app\\\\pages\\\\login.vue",

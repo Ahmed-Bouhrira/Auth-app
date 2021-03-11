@@ -20,7 +20,10 @@ module.exports = {
 
   css: [],
 
-  plugins: [],
+  plugins: [
+    { src: "~/plugins/socket.client.js" },
+    { src: "~/plugins/vuetify.js" }
+  ],
 
   components: true,
 
@@ -33,16 +36,21 @@ module.exports = {
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/axios
-    "@nuxtjs/axios"
+    "@nuxtjs/axios",
+    "@nuxtjs/pwa"
   ],
   pwa: {
-    meta: {},
-    manifest: {}
+    manifest: {
+      name: "Nuxt.js PWA nuxt-chat-app",
+      short_name: "Nuxt.js PWA",
+      start_url: "/",
+      theme_color: "#424242",
+      display: "standalone"
+    },
+    icon: {
+      iconSrc: "./static/favicon.ico"
+    }
   },
-
-  // Axios module configuration (https://go.nuxtjs.dev/config-axios)
-  axios: {},
-  mdbvue: {},
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
   vuetify: {
@@ -63,5 +71,10 @@ module.exports = {
     }
   },
 
-  build: {}
+  build: {
+    /*
+     ** You can extend webpack config here
+     */
+    extend(config, ctx) {}
+  }
 };
